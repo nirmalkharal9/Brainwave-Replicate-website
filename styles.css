@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f7fa;
+}
+.container {
+  background-image: url("img/BG.webp");
+  height: 120vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blueviolet;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+nav h1 {
+  color: white;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 70vw;
+  gap: 1em;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  color: white;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav button {
+  border: none;
+  border-radius: 0.6em;
+  height: 3em;
+  width: 9em;
+  background-color: red;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  align-items: center;
+  color: white;
+  z-index: 1;
+}
+
+.hero1 {
+  height: 60vh;
+  width: 40vw;
+}
+.hero1 h1 {
+  font-size: 4em;
+  margin: 0;
+}
+.hero1 button {
+  height: 3em;
+  width: 9em;
+  border: none;
+  border-radius: 0.6em;
+  color: white;
+  background-color: red;
+}
+.hero2 #img {
+  height: 30em;
+  z-index: 2;
+  position: relative;
+}
+.hero2 #dots {
+  height: 10vh;
+  position: absolute;
+  z-index: 1;
+  top: 20vh;
+  right: 13vw;
+}
+
+/* wave section */
+#wave {
+  position: absolute;
+  top: 94%;
+  width: 99vw;
+}
+
+/*  students section */
+.student {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10vh;
+  text-align: center;
+}
+.std {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0px;
+  align-items: center;
+  width: 30vh;
+}
+.std h1 {
+  margin: 0px;
+}
+/* Collaborate section 3rd */
+.collaborate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collaborate img {
+  width: 35vw;
+}
+.collab1 {
+  width: 25vw;
+}
+.collab1 h1 {
+  font-size: 3em;
+}
+/* Second Last section */
+.update {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh;
+}
+.update p {
+  width: 30vw;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form input {
+  height: 5vh;
+  width: 20vw;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.form button {
+  height: 5vh;
+  width: 20vw;
+  margin: 2vh;
+  color: white;
+  font-weight: 800;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Footer Section */
+footer {
+  background-color: white;
+  position: relative;
+}
+#wave2 {
+  position: absolute;
+  top: -25vh;
+  width: 99vw;
+  bottom: 40%;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+}
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.download img {
+  margin: 1vh;
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.icon i {
+  font-size: 1.5em;
+  margin: 0.6em;
+}
